@@ -1,0 +1,11 @@
+# for embedded diag
+/dev/pmem_ediag		0660	system	system
+/dev/pmem_ediag1	0660	system	system
+/dev/pmem_ediag2	0660	system	system
+/dev/pmem_ediag3	0660	system	system
+
+#+ SSD_RIL: for CXX
+/dev/smd20 0660 system system
+
+# for disable camera
+/dev/block/platform/msm_sdcc.1/by-name/control  0660    media   system
